@@ -11,13 +11,6 @@ defmodule LogLevel do
     end
   end
 
-  # def alert_recipient(level, legacy) do
-  #   case {level, legacy} do
-  #   {4, _} -> :_ops_team
-  #   {5, false} -> :_dev1_team
-  #   _ -> :dev2_team
-  #   end
-  # end
 
   @spec alert_recipient(any, any) :: :dev1 | :dev2 | false | :ops
   def alert_recipient(level, legacy?) do
