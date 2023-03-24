@@ -120,14 +120,14 @@ LanguageList.count(language_list)
 
 Define the `functional_list?/1` function which takes 1 argument (a _language list_). It should return a boolean value. It should return true if _"Elixir"_ is one of the languages in the list.
 
-```elixir
-language_list = LanguageList.new()
-# => []
-language_list = LanguageList.add(language_list, "Elixir")
-# => ["Elixir"]
-LanguageList.functional_list?(language_list)
-# => true
-```
+  ```elixir
+  language_list = LanguageList.new()
+  # => []
+  language_list = LanguageList.add(language_list, "Elixir")
+  # => ["Elixir"]
+  LanguageList.functional_list?(language_list)
+  # => true
+  ```
 
 ## Source
 
